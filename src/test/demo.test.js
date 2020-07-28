@@ -1,7 +1,8 @@
-test("should be true", () => {
-  const isActive = true;
+describe("Tests in demo.js", () => {
+  test("should be equals the strings", () => {
+    const message = "Hey";
+    const message2 = "Hey";
 
-  if (!isActive) {
-    throw new Error("is not active");
-  }
+    expect(message).toBe(message2);
+  });
 });
