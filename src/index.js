@@ -2,13 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import FirstApp from "./FirstApp";
+// import FirstApp from "./FirstApp";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <FirstApp greeting="Hello" />
+    <App />
+    {/* <FirstApp greeting="Hello" /> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
