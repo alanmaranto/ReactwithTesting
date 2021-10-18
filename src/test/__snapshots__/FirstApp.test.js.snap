@@ -8,5 +8,11 @@ exports[`Tests in First A should display First App correctly 1`] = `
   <p>
     Subtitle
   </p>
+  <span
+    className="subtitle"
+    id="subtitle"
+  >
+    Subtitle
+  </span>
 </Fragment>
 `;

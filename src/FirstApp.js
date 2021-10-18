@@ -6,6 +6,7 @@ const FirstApp = ({ greeting, subtitle }) => {
     <>
       <h1>{greeting}</h1>
       <p>{subtitle}</p>
+      <span id="subtitle" className="subtitle">{subtitle}</span>
     </>
   );
 };
